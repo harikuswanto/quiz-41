@@ -1,0 +1,15 @@
+.container {
+  @apply flex justify-between text-xl;
+}
+
+.container > button {
+  @apply block px-10 py-5 border border-primary rounded-full;
+}
+
+.prev {
+  @apply text-primary;
+}
+
+.next {
+  @apply text-white bg-primary;
+}

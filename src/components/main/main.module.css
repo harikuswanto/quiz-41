@@ -1,0 +1,3 @@
+.container {
+  @apply px-12 py-8 my-10 w-[700px] h-[600px] rounded-[35px] border shadow-[0_5px_16px_rgba(8,15,52,0.06)];
+}

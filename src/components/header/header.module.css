@@ -1,0 +1,11 @@
+.container {
+  @apply w-full text-center mt-10;
+}
+
+.container h1 {
+  @apply font-bold text-4xl leading-[46px] text-[#170F49];
+}
+
+.container p {
+  @apply text-lg text-[#6F6C90] leading-[30px];
+}

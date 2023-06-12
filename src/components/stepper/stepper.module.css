@@ -1,0 +1,15 @@
+.container {
+  @apply flex justify-between items-center gap-2;
+}
+
+.step {
+  @apply w-9 h-9 rounded-full bg-ascent text-neutral text-lg flex items-center justify-center;
+}
+
+.separator {
+  @apply bg-ascent w-auto h-1.5 grow rounded;
+}
+
+.complete {
+  @apply bg-primary text-white;
+}
