@@ -1,20 +1,20 @@
-"use client";
 import styles from "./main.module.css";
 import Stepper from "../stepper/stepper";
-import { useState } from "react";
 
-export default function Main() {
-  const [step, setStep] = useState(1);
+export default function Main({
+  step,
+  maxStep,
+  children,
+}: {
+  step: number;
+  maxStep: number;
+  children: React.ReactNode;
+}) {
   return (
     <main className={styles.container}>
-      <Stepper currentStep={step} totalStep={4} />
+      <Stepper currentStep={step} maxStep={maxStep} />
       <hr className="my-7" />
-      <div>
-      
-
-
-
-      </div>
+      {children}
     </main>
   );
 }

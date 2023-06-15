@@ -1,18 +1,17 @@
-import { type } from "os";
 import styles from "./stepper.module.css";
 function range(N: number) {
   return [...Array(N)].map((x, i) => i + 1);
 }
 
 export default function Stepper({
-  totalStep,
+  maxStep,
   currentStep,
 }: {
-  totalStep: number;
+  maxStep: number;
   currentStep: number;
 }) {
-  const step = range(totalStep);
-  
+  const step = range(maxStep);
+
   return (
     <div className={styles.container}>
       {step.map((i: number) => (

@@ -20,6 +20,8 @@ module.exports = {
         primary: "#4A3AFF",
         ascent: "#EFF0F7",
         neutral: "#6F6C90",
+        darkBlue: "#170F49",
+        errorstate: "#962DFF",
       },
     },
   },

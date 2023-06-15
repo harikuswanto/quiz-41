@@ -13,3 +13,7 @@
 .next {
   @apply text-white bg-primary;
 }
+
+.hidden{
+  visibility: hidden;
+}
