@@ -1,0 +1,39 @@
+.container {
+  @apply mt-16;
+}
+
+.description > h2 {
+  @apply text-darkBlue font-bold text-2xl leading-9;
+}
+
+.description > p {
+  @apply text-neutral text-lg leading-7;
+}
+
+.forminput {
+  @apply grid grid-cols-2 gap-x-7 gap-y-5 h-full mt-10;
+}
+
+.budget {
+  @apply  h-28 ;
+}
+
+.budget > label {
+  @apply w-full h-full flex p-7 gap-x-3 font-medium text-xl border border-[#EFF0F7] rounded-[16px] items-center cursor-pointer shadow-[0px_2px_6px_rgba(19,18,66,0.07)];
+}
+
+.radio {
+  @apply w-6 h-6 rounded-full border border-[#D9DBE9] shadow-[inset_0px_-3px_7px_rgba(20,20,43,0.08)];
+}
+
+.budget input[type="radio"]:checked + label>.radio {
+  @apply box-border border-[8px] border-primary;
+}
+
+.forminput input[type="radio"]:checked + label {
+  @apply border-2 border-[#4a3aff] shadow-[0px_2px_11px_rgba(69,65,164,0.06),0px_4px_10px_rgba(31,37,89,0.07)];
+}
+
+.budget input[type="radio"] {
+  @apply hidden;
+}

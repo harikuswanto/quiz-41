@@ -1,0 +1,15 @@
+.container {
+  @apply mt-10 flex flex-col items-center mx-auto w-[494px];
+}
+
+.container h2{
+@apply font-bold text-2xl text-darkBlue my-2
+}
+
+.container p{
+    @apply text-lg text-neutral text-center leading-[30px]
+}
+
+.container button{
+    @apply font-bold text-white text-lg px-10 py-5 bg-primary rounded-full mt-8
+}

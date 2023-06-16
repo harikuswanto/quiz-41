@@ -1,5 +1,6 @@
 import styles from "./main.module.css";
 import Stepper from "../stepper/stepper";
+import { useFormContext } from "react-hook-form";
 
 export default function Main({
   step,

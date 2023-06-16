@@ -1,0 +1,31 @@
+.container {
+  @apply mt-16;
+}
+
+.description > h2 {
+  @apply text-darkBlue font-bold text-2xl leading-9;
+}
+
+.description > p {
+  @apply text-neutral text-lg leading-7;
+}
+
+.forminput {
+  @apply grid grid-cols-2 gap-7 h-full mt-10;
+}
+
+.forminput label {
+  @apply flex gap-x-3 font-medium text-xl border border-[#EFF0F7] rounded-[16px] p-6 items-center cursor-pointer shadow-[0px_2px_6px_rgba(19,18,66,0.07)];
+}
+
+.icon {
+  @apply w-16 h-16 rounded-full bg-primary/10 flex justify-center items-center;
+}
+
+.forminput input[type="radio"]:checked + label {
+  @apply border-2 border-[#4a3aff] shadow-[0px_2px_11px_rgba(69,65,164,0.06),0px_4px_10px_rgba(31,37,89,0.07)];
+}
+
+.forminput input[type="radio"] {
+  @apply hidden;
+}
