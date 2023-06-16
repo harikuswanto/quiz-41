@@ -2,6 +2,7 @@ export type FormFieldType = {
   name: string;
   email: string;
   phone: string;
-  service: string;
+  company: string;
+  services: string;
   budget: string;
 };

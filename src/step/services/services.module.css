@@ -11,7 +11,11 @@
 }
 
 .forminput {
-  @apply grid grid-cols-2 gap-7 h-full mt-10;
+  @apply grid grid-cols-2 gap-7 h-full mt-10 box-content;
+}
+
+.forminput > div {
+  @apply h-[120px];
 }
 
 .forminput label {
