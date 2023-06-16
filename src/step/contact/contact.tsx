@@ -5,7 +5,7 @@ import ContactList from "./contactList";
 const inputForm = [
   { id: "name", label: "Name", pattern: /./ },
   { id: "email", label: "Email", pattern: /[A-Za-z0-9\.]{6,30}\@gmail\.com$/ },
-  { id: "phone", label: "Name", pattern: /08[0-9]{6,10}$/ },
+  { id: "phone", label: "Phone", pattern: /08[0-9]{6,10}$/ },
   { id: "company", label: "Company", pattern: /./ },
 ];
 
