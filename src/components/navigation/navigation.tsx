@@ -24,7 +24,7 @@ export default function Navigation({
     if (step > 1) {
       setStep(step + 1);
     } else {
-      const res = await trigger(["name", "email", "phone", "company"]);
+      const res = await trigger(["name", "email", "phone", "company"],{ shouldFocus: true });
       if (res) setStep(step + 1);
     }
   }
